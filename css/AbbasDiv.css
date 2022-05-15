@@ -655,6 +655,6 @@
   100% {transform: skew(0deg,0deg);}
 }
 
-.search-container:hover{
+.shake{
   animation: hoverShake 0.15s linear 3;
 }
