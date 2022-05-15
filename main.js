@@ -6,7 +6,7 @@ menuIcon.onclick = function () {
 }
 let download = document.querySelector(".download");
 let urlPlace = document.querySelector(".search-input");
-urlPlace.onmousemove = function () {
+urlPlace.onblur = function () {
   let theLink = urlPlace.value;
   let reg = /youtu(\w*|\W*|\d*|\D*)+\d*/gi;
   window.sessionStorage.setItem(
