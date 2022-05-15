@@ -27,6 +27,7 @@ download.addEventListener("click", (event) => {
     urlPlace.value.includes("youtu") === false ||
     urlPlace.value.includes("https") === false
   ) {
+    theInput.classList.toggle("shake");
     event.preventDefault();
   } else {
     open(`${window.sessionStorage.getItem("theUrl")}`);
