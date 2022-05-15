@@ -22,6 +22,7 @@ urlPlace.onmousemove = function () {
     );
   }
 };
+let theInput = document.querySelector(".search-container");
 download.addEventListener("click", (event) => {
   if (
     urlPlace.value.includes("youtu") === false ||
