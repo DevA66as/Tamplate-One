@@ -1,3 +1,3 @@
 # Template-One
 
-https://deva66as.github.io/Tamplate-One/
+https://deva66as.github.io/Tmplate-One/
